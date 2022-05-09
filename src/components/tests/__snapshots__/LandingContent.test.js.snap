@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render landing content 1`] = `
+<p>
+  'Loading...'
+</p>
+`;
+
+exports[`should render landing content 2`] = `
+<p>
+  'Loading...'
+</p>
+`;

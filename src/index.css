@@ -11,3 +11,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/*--            Navigation Bar           --*/
+.navbar-brand {
+  max-height: 15vh;
+}
+
+
+
+/*--            Landing Page            --*/
+
+.landing-page {
+  /* background-color: darkslategray; */
+  background-image: url('resources/space.jpeg');
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+
+.landing-brand {
+  max-height: 25vh;
+  padding-bottom: 0;
+}
+
+.landing-content {
+  padding: 7% 15%;
+  height: 100vh;
+  font-size: 150%;
+  overflow: scroll;
+  margin-bottom: 3%;
+}
+
+.company-name {
+  padding-bottom: 2%;
+}
+
+
+
+/*--            Missions Page            --*/
+
+.dropdown-button {
+  display: inline-block;
+  padding: 3%;
+}
+
+.missions-page {
+  background-color: darkslategray;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+
+.mission-card {
+  color: darkblue;
+  margin-bottom: 8%;
+}
+
+.missions-container {
+  background-image: url("resources/rocket.webp");
+  padding: 7% 15%;
+  font-size: 150%;
+}
+
+.mission-container {
+  padding: 7%;
+}
+
+.mission {
+  padding: 7% 15%;
+}
+
+.card-title {
+  font-size: 150%;
+  padding-bottom: 1vh;
+}
+
+.card-subtitle {
+  font-size: 90%;
+  padding-bottom: 1vh;
+}
+
+.card-text {
+  font-size: 75%;
+  padding-bottom: 1vh;
+}
+
+
+
+/*--            Footer            --*/
+
+.footer {
+  background-color: #212529;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 3% 10%;
+}
